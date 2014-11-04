@@ -23,5 +23,6 @@
  */
 
 $string['pluginname'] = 'newgradeexport';
+$string['timeexported'] = 'Last downloaded from this course';
 $string['newgradeexport:publish'] = 'Publish newgradeexport grade export';
 $string['newgradeexport:view'] = 'Use newgradeexport grade export';
