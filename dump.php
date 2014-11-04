@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -30,9 +29,7 @@ if (empty($CFG->gradepublishing)) {
 }
 
 $context = context_course::instance($id);
-require_capability('gradeexport/txt:publish', $context);
+require_capability('gradeexport/newgradeexport:publish', $context);
 
 // use the same page parameters as export.php and append &key=sdhakjsahdksahdkjsahksadjksahdkjsadhksa
 require 'export.php';
-
-

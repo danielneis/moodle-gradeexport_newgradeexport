@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -18,9 +17,9 @@
 require_once($CFG->dirroot.'/grade/export/lib.php');
 require_once($CFG->libdir . '/csvlib.class.php');
 
-class grade_export_txt extends grade_export {
+class grade_export_newgradeexport extends grade_export {
 
-    public $plugin = 'txt';
+    public $plugin = 'newgradeexport';
 
     public $separator; // default separator
 
@@ -117,5 +116,3 @@ class grade_export_txt extends grade_export {
         exit;
     }
 }
-
-

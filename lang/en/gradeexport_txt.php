@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -16,13 +15,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'gradeexport_txt', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'gradeexport_newgradeexport', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   gradeexport_txt
+ * @package   gradeexport_newgradeexport
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Plain text file';
-$string['txt:publish'] = 'Publish TXT grade export';
-$string['txt:view'] = 'Use text grade export';
+$string['pluginname'] = 'newgradeexport';
+$string['newgradeexport:publish'] = 'Publish newgradeexport grade export';
+$string['newgradeexport:view'] = 'Use newgradeexport grade export';
