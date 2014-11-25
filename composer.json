@@ -1,0 +1,12 @@
+{
+    "name": "danielneis/moodle-gradeexport_newgradeexport",
+    "description": "It is a template for Moodle Grade Export plugin based on txt export from core",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Daniel Neis Araujo",
+            "email": "danielneis@gmail.com"
+        }
+    ],
+    "require": {}
+}
