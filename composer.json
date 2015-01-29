@@ -8,5 +8,11 @@
             "email": "danielneis@gmail.com"
         }
     ],
-    "require": {}
+    "type": "moodle-gradeexport",
+    "require": {
+      "composer/installers": "~1.0"
+    },
+    "extra": {
+      "installer-name": "newgradeexport"
+    }
 }
